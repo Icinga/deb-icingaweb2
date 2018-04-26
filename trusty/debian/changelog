@@ -1,3 +1,9 @@
+icingaweb2 (2.5.2-1) icinga-trusty; urgency=medium
+
+  * Update to 2.5.2
+
+ -- Eric Lippmann <eric.lippmann@icinga.com>  Thu, 26 Apr 2018 07:32:23 +0000
+
 icingaweb2 (2.5.1-1) icinga-trusty; urgency=medium
 
   * Update to 2.5.1
