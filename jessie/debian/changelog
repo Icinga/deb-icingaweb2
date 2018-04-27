@@ -1,3 +1,9 @@
+icingaweb2 (2.5.3-1) icinga-jessie; urgency=medium
+
+  * Update to 2.5.3-1
+
+ -- Eric Lippmann <eric.lippmann@icinga.com>  Fri, 27 Apr 2018 08:35:43 +0000
+
 icingaweb2 (2.5.2-1) icinga-jessie; urgency=medium
 
   * Update to 2.5.2
