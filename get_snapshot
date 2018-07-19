@@ -57,6 +57,12 @@ if [ -z "$UPSTREAM_GIT_NOREPO" ]; then
 fi
 
 git_version=$(git describe --tags "${UPSTREAM_GIT_BRANCH}")
+if [ `echo "$git_version" | grep -v -E '(g[0-9a-f]+)$'` ]; then
+       echo "This is a release tagged commit and does not fit the naming scheme, it will confuse the packaging server.
+It's safer to wait for the next commit. Have a nice day."
+       exit 1
+fi
+
 if [[ "$git_version" = *2.4.1* ]] || [[ "$git_version" = *2.4.0* ]]; then
   package_version=$(echo "$git_version" | sed -e 's/^v//' -e 's/-/+t/' -e 's/-/./g')
 else
