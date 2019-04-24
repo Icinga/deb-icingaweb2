@@ -1,3 +1,9 @@
+icingaweb2 (2.6.3-1) icinga-trusty; urgency=medium
+
+  * Update to 2.6.3
+
+ -- Johannes Meyer <johannes.meyer@icinga.com>  Wed, 24 Apr 2019 12:59:58 +0200
+
 icingaweb2 (2.6.2-1) icinga-trusty; urgency=medium
 
   * Update to 2.6.2
